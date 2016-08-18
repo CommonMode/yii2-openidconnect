@@ -22,6 +22,6 @@
     "spomky-labs/jose" : "~5.0.6"
   },
   "autoload": {
-    "psr-4": { "commonmode\\yii2-openidconnect\\": "" }
+    "psr-4": { "commonmode\\authclient\\": "" }
   }
 }
