@@ -1,0 +1,27 @@
+{
+  "name": "commonmode/yii2-openidconnect",
+  "description": "OpenID Connect AuthClient for Yii 2 Framework",
+  "keywords": ["yii2", "OAuth", "OpenID", "connect", "api"],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/GeorgeGardiner/yii2-openidconnect/issues",
+    "forum": "http://www.yiiframework.com/forum/",
+    "wiki": "http://www.yiiframework.com/wiki/",
+    "irc": "irc://irc.freenode.net/yii",
+    "source": "https://github.com/GeorgeGardiner/yii2-openidconnect"
+  },
+  "authors": [
+    {
+      "name": "George Gardiner",
+      "email": "george.gardiner@commonmode.co.uk"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2-authclient": "~2.1.0",
+    "spomky-labs/jose" : "~5.0.6"
+  },
+  "autoload": {
+    "psr-4": { "commonmode\\yii2-openidconnect\\": "" }
+  }
+}
